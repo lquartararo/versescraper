@@ -7,7 +7,7 @@ TOTAL_VERSES = 300
 VERSES_PER_PAGE = 10
 TOTAL_PAGES = TOTAL_VERSES // VERSES_PER_PAGE
 OUTPUT_FILE = "bibleVerses.ts"
-SAVE_RANK = False  # Toggle this to control whether rank is saved
+SAVE_RANK = False
 
 def escape_string(s):
     return s.replace("\\", "\\\\").replace("\"", "\\\"").replace("\n", " ")
